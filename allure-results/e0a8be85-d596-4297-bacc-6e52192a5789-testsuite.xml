@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566897340974' stop='1566897345271'>
+    <name>it should login</name>
+    <title>it should login</title>
+    <test-cases>
+        <test-case start='1566897340975' status='passed' stop='1566897344684'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='71759309-ee9e-465e-ae29-e0f93f25f310-attachment.png' type='image/png' size='47675'/>
+            </attachments>
+        </test-case>
+        <test-case start='1566897344684' status='failed' stop='1566897345270'>
+            <name>shouldnot login</name>
+            <title>shouldnot login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='27320711-0dca-40be-9696-d7c879b13f57-attachment.png' type='image/png' size='42344'/>
+            </attachments>
+            <failure>
+                <message>Expected By(css selector, .alert.alert-danger.ng-binding.ng-scope) to equal 'Username or password is incorrect'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (/Users/prakash/Desktop/automation/practice/spec.js:22:72)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2974:25
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

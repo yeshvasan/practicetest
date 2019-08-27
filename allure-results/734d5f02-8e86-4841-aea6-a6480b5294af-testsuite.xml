@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566907636451' stop='1566907640179'>
+    <name>to check calc</name>
+    <title>to check calc</title>
+    <test-cases>
+        <test-case start='1566907636452' status='passed' stop='1566907640178'>
+            <name>should check the calc</name>
+            <title>should check the calc</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='07348d8e-5cc4-4541-85aa-c5dd43e4ee1f-attachment.png' type='image/png' size='16413'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566902537789' stop='1566902537793'>
+    <name>it should login</name>
+    <title>it should login</title>
+    <test-cases>
+        <test-case start='1566902537789' status='pending' stop='1566902537792'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566902537792' status='pending' stop='1566902537792'>
+            <name>shouldnot login</name>
+            <title>shouldnot login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

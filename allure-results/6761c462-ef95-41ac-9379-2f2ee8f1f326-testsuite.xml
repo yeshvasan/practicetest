@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566897071513' stop='1566897073517'>
+    <name>it should login</name>
+    <title>it should login</title>
+    <test-cases>
+        <test-case start='1566897071513' status='failed' stop='1566897073517'>
+            <name>should login</name>
+            <title>should login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8f596f86-6169-4632-9064-d4ed780d6bf0-attachment.png' type='image/png' size='27763'/>
+            </attachments>
+            <failure>
+                <message>Failed: webDriver is not defined</message>
+                <stack-trace>ReferenceError: webDriver is not defined
+                    at UserContext.&lt;anonymous> (/Users/prakash/Desktop/automation/practice/spec.js:15:8)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+                From: Task: Run it("should login") in control flow
+                    at UserContext.&lt;anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/Users/prakash/Desktop/automation/practice/spec.js:8:5)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/Users/prakash/Desktop/automation/practice/spec.js:3:1)
+                    at Module._compile (internal/modules/cjs/loader.js:776:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+                    at Module.load (internal/modules/cjs/loader.js:643:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:556:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

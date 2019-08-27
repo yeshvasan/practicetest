@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566890600386' stop='1566890601942'>
+    <name>it should login</name>
+    <title>it should login</title>
+    <test-cases>
+        <test-case start='1566890600386' status='failed' stop='1566890601941'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fe9d1f03-0545-4a80-aac1-4fda74292b19-attachment.png' type='image/png' size='3713'/>
+            </attachments>
+            <failure>
+                <message>TypeError: loginPage is not a constructor</message>
+                <stack-trace>TypeError: loginPage is not a constructor
+                    at Object.&lt;anonymous> (/Users/prakash/Desktop/automation/practice/Login_Page.js:16:18)
+                    at Module._compile (internal/modules/cjs/loader.js:776:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+                    at Module.load (internal/modules/cjs/loader.js:643:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+                    at Module.require (internal/modules/cjs/loader.js:683:19)
+                    at require (internal/modules/cjs/helpers.js:16:16)
+                    at Suite.&lt;anonymous> (/Users/prakash/Desktop/automation/practice/spec.js:6:21)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
